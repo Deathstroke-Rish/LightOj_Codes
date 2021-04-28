@@ -42,7 +42,7 @@ int main()
         Sumation[i]=((unsigned long long)phi[i]*(unsigned long long)phi[i])+Sumation[i-1];
         //Here we increased phi[] int to unsigned long long int. it is the first trick of the problem.
         // the the second trick is: we have to find the sumation of sqare value of ewlars phi of many numbers.
-        //so we will use  array . where we will store pre-sum of 1 to n; then we will take input from user and call it.
+        //so we will use  cumulative sum array  . where we will store pre-sum of 1 to n; then we will take input from user and call it.
     }
 
 
