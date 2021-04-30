@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+long long int divi(long long int n)
+{
+    long long int sum=0,i,j,k;
+    for(i=2;i*i<=n;i++)
+    {
+        if(i*i==n)
+        {
+            sum++;
+        }
+        else
+        {
+            if(n%i==0)
+            {
+                sum+=2;
+            }
+        }
+    }
+    return sum;
+}
+
+int main()
+{
+    int t=1,test;
+    cin>>test;
+    while(test--)
+    {
+        long long int n,i,j,k;
+        cin>>n;
+        k=divi(n);
+        cout<<"Case "<<t<<": "<<k+1<<endl;
+        t++;
+    }
+
+
+    return 0;
+}
