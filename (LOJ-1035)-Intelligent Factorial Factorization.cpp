@@ -7,7 +7,7 @@ _____CSE,BRUR______
 /*
 
 APPROCH:
-    1)Native approch: take input n. find n! and simplily find prime factorial of it. but you cant find more than 14! by this approch. it will overflow
+    1)naive approach: take input n. find n! and simplily find prime factorial of it. but you cant find more than 14! by this approch. it will overflow
     2)Optimized approch: find directly prime factorial of n! by formula.
 
 
